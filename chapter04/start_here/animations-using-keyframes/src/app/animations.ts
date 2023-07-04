@@ -32,6 +32,10 @@ export const cardAnimation = trigger('cardAnimation', [
           offset: 0.5,
         }),
         style({
+          transform: 'translateX(-100px) rotate(135deg) scale3d(0.6, 0.6, 0.6)',
+          offset: 0.75,
+        }),
+        style({
           transform: 'translateX(0) ',
           offset: 1,
         }),
