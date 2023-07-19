@@ -16,7 +16,7 @@ export const ROUTE_ANIMATION = trigger('routerAnimation', [
       [
         style({
           position: 'absolute',
-          with: '100%',
+          width: '100%',
         }),
       ],
       { optional: true }
